@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Harshil's Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hero">
+<nav>
+	<img src="img/menu.png" class="menu-img">
+	<img src="img/logo.png" class="logo">
+	<ul>
+	   <li><a href="index2.html">Register</a></li>
+	   <li><a href="">Contemporary</a></li>
+	   <li><a href="">About</a></li>
+	</ul>
+	<button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+	</nav>
+	
+	<div class="lamp-container">
+	<img src="img/lamp.png" class="lamp">
+	<img src="img/light.png" class="light" id="light">  
+	</div>
+	
+	<div class="text-cintaint">
+		<h2>𝓗𝓪𝓻𝓼𝓱𝓲𝓵<br>𝓑𝓱𝓪𝓿𝓮𝓼𝓱𝓫𝓱𝓪𝓲 𝓑𝓱𝓪𝓽𝓽</h2>
+		<p>Welcome to Harshil's website. In this website you will know about the jobs of your choice. So go to the register and know about your job.</p>
+		<a href="index4.html">About Owner</a>
+		<div class="control">
+			<p>04</p>
+			<div class="line"><span></span></div>
+			<p>05</p>
+		</div>
+	</div>
+	
+	
+	</div>
+	
+	
+<script>
+	var btn = document.getElementById("btn");
+	var light = document.getElementById("light");
+	
+	function toggleBtn(){
+		btn.classList.toggle("active");
+		light.classList.toggle("on");
+	}
+	</script>
+</body>
+</html>
